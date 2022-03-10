@@ -70,7 +70,7 @@ class Lienzo(QFrame):
             painter.setPen(pincel2)            
             for i in self.posicion:
                 cantidad+=1
-                painter.drawText(i[0]+4,i[1]+3,10,12,Qt.AlignHCenter,str(cantidad))
+                painter.drawText(i[0]+3,i[1]+3,11,14,Qt.AlignHCenter,str(cantidad))
             painter.end()
         elif self.dibujar_lineas:
             painter.begin(self)
@@ -135,8 +135,6 @@ class GraficaArbol(QMainWindow):
         self.ui.setupUi(self)
         self.modelo=modelo
         self.controlador=ControladorA(self)
-        self.arbol1g = MplCanvas(self.ui.frame)
-        self.arbol1g.setGeometry(0, 0, self.ui.frame.width(),self.ui.frame.height())
         self.canvas2 = MplCanvas(self.ui.frame_2)
         self.canvas2.setGeometry(0, 0, self.ui.frame_2.width(),self.ui.frame_2.height())
         

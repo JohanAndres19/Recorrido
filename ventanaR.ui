@@ -17,9 +17,9 @@
    <widget class="QPushButton" name="boton_Borrarpuntos">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>50</x>
       <y>350</y>
-      <width>91</width>
+      <width>121</width>
       <height>23</height>
      </rect>
     </property>
@@ -30,9 +30,9 @@
    <widget class="QPushButton" name="boton_Lista">
     <property name="geometry">
      <rect>
-      <x>300</x>
+      <x>290</x>
       <y>350</y>
-      <width>121</width>
+      <width>171</width>
       <height>23</height>
      </rect>
     </property>
@@ -45,7 +45,7 @@
      <rect>
       <x>540</x>
       <y>350</y>
-      <width>101</width>
+      <width>161</width>
       <height>23</height>
      </rect>
     </property>
